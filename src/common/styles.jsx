@@ -1,11 +1,23 @@
 import styled from "styled-components";
-import * as palette from "./cssVariables";
 
 // LAYOUT
 export const Container = styled.div`
   max-width: 968px;
   margin-left: auto;
   margin-right: auto;
+
+  /* BREAKPOINTS */
+  /* For large devices */
+  @media (max-width: 992px) {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
+  /* For small devices */
+  @media (max-width: 350px) {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 `;
 
 export const Grid = styled.div`
@@ -16,13 +28,13 @@ export const Grid = styled.div`
 // BUTTON
 export const Button = styled.div`
   display: inline-block;
-  background-color: ${palette.titleColor};
-  color: ${palette.containerColor};
+  background-color: #333333;
+  color: #fff;
   padding: 1.25rem 2rem;
   border-radius: 1rem;
-  font-weight: ${palette.fontMedium};
+  font-weight: 500;
   :hover {
-    background-color: ${palette.titleColorDark};
+    background-color: #000000;
   }
 `;
 
