@@ -34,7 +34,7 @@ export const CommonSection = styled(Container)`
   /* For medium devices */
   @media screen and (max-width: 768px) {
     margin-top: initial;
-    padding: 0 0 4rem;
+    padding: 0 0 6rem;
   }
 
   @media screen and (max-width: 576px) {
