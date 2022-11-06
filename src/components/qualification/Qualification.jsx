@@ -5,12 +5,12 @@ import {
   CommonSection,
   CommonTitle,
   CommonSubTitle,
+  H3Title,
 } from "../../common/styles";
 
 const Qualification = () => {
   const [isActive, setIsActive] = useState(true);
 
-  console.log("this is active:", isActive);
   const handleSetActiveEdu = () => {
     setIsActive(true);
   };
@@ -39,7 +39,7 @@ const Qualification = () => {
           <QualificationContentEdu isActive={isActive}>
             <QualificationData>
               <div>
-                <QualificationTitle>System Deployment</QualificationTitle>
+                <H3Title>System Deployment</H3Title>
                 <QualificationSubTitle>
                   Viet Nam - Institute
                 </QualificationSubTitle>
@@ -63,7 +63,7 @@ const Qualification = () => {
               </div>
 
               <div>
-                <QualificationTitle>AWS Certification</QualificationTitle>
+                <H3Title>AWS Certification</H3Title>
                 <QualificationSubTitle>
                   National Australia Bank
                 </QualificationSubTitle>
@@ -75,7 +75,7 @@ const Qualification = () => {
 
             <QualificationData>
               <div>
-                <QualificationTitle>User-Centred Design</QualificationTitle>
+                <H3Title>User-Centred Design</H3Title>
                 <QualificationSubTitle>
                   Viet Nam - Institute
                 </QualificationSubTitle>
@@ -99,7 +99,7 @@ const Qualification = () => {
               </div>
 
               <div>
-                <QualificationTitle>Web Programming</QualificationTitle>
+                <H3Title>Web Programming</H3Title>
                 <QualificationSubTitle>
                   Viet Nam - Institute
                 </QualificationSubTitle>
@@ -113,7 +113,7 @@ const Qualification = () => {
           <QualificationContentExp isActive={isActive}>
             <QualificationData>
               <div>
-                <QualificationTitle>Full-stack Developer</QualificationTitle>
+                <H3Title>Full-stack Developer</H3Title>
                 <QualificationSubTitle>
                   National Australia Bank
                 </QualificationSubTitle>
@@ -137,7 +137,7 @@ const Qualification = () => {
               </div>
 
               <div>
-                <QualificationTitle>NAB Capstone</QualificationTitle>
+                <H3Title>NAB Capstone</H3Title>
                 <QualificationSubTitle>
                   National Australia Bank
                 </QualificationSubTitle>
@@ -149,7 +149,7 @@ const Qualification = () => {
 
             <QualificationData>
               <div>
-                <QualificationTitle>Graduation Thesis</QualificationTitle>
+                <H3Title>Graduation Thesis</H3Title>
                 <QualificationSubTitle>
                   Viet Nam - Instutute
                 </QualificationSubTitle>
@@ -218,10 +218,6 @@ const QualificationData = styled.div`
   column-gap: 3.5rem;
 `;
 
-const QualificationTitle = styled.h3`
-  font-size: 1rem;
-  font-weight: 500;
-`;
 
 const QualificationSubTitle = styled.span`
   display: inline-block;

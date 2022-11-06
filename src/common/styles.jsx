@@ -80,3 +80,8 @@ export const ButtonFlex = styled.div`
 export const ButtonIcon = styled.div`
   margin-left: 20px;
 `;
+
+export const H3Title = styled.h3`
+  font-size: 1.25rem;
+  font-weight: 500;
+`;
