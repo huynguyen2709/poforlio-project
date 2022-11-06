@@ -39,12 +39,12 @@ const Qualification = () => {
           <QualificationContentEdu isActive={isActive}>
             <QualificationData>
               <div>
-                <QualificationTitle>Art Director</QualificationTitle>
+                <QualificationTitle>System Deployment</QualificationTitle>
                 <QualificationSubTitle>
-                  Viet Nam - Instutute
+                  Viet Nam - Institute
                 </QualificationSubTitle>
                 <QualificationCalendar>
-                  <i className="uil uil-calender"></i> 2022 - Present
+                  <i className="uil uil-calender"></i> July - October 2022
                 </QualificationCalendar>
               </div>
 
@@ -63,22 +63,24 @@ const Qualification = () => {
               </div>
 
               <div>
-                <QualificationTitle>Web Design</QualificationTitle>
-                <QualificationSubTitle>Spain - Institute</QualificationSubTitle>
+                <QualificationTitle>AWS Certification</QualificationTitle>
+                <QualificationSubTitle>
+                  National Australia Bank
+                </QualificationSubTitle>
                 <QualificationCalendar>
-                  <i className="uil uil-calender"></i> 20219 - 2020
+                  <i className="uil uil-calender"></i> March - April 2022
                 </QualificationCalendar>
               </div>
             </QualificationData>
 
             <QualificationData>
               <div>
-                <QualificationTitle>Art Director</QualificationTitle>
+                <QualificationTitle>User-Centred Design</QualificationTitle>
                 <QualificationSubTitle>
-                  Viet Nam - Instutute
+                  Viet Nam - Institute
                 </QualificationSubTitle>
                 <QualificationCalendar>
-                  <i className="uil uil-calender"></i> 2022 - Present
+                  <i className="uil uil-calender"></i> 2020 - 2021
                 </QualificationCalendar>
               </div>
 
@@ -97,10 +99,12 @@ const Qualification = () => {
               </div>
 
               <div>
-                <QualificationTitle>Web Design</QualificationTitle>
-                <QualificationSubTitle>Spain - Institute</QualificationSubTitle>
+                <QualificationTitle>Web Programming</QualificationTitle>
+                <QualificationSubTitle>
+                  Viet Nam - Institute
+                </QualificationSubTitle>
                 <QualificationCalendar>
-                  <i className="uil uil-calender"></i> 20219 - 2020
+                  <i className="uil uil-calender"></i> 2019-2020
                 </QualificationCalendar>
               </div>
             </QualificationData>
@@ -109,12 +113,12 @@ const Qualification = () => {
           <QualificationContentExp isActive={isActive}>
             <QualificationData>
               <div>
-                <QualificationTitle>Art Director</QualificationTitle>
+                <QualificationTitle>Full-stack Developer</QualificationTitle>
                 <QualificationSubTitle>
-                  Viet Nam - Instutute
+                  National Australia Bank
                 </QualificationSubTitle>
                 <QualificationCalendar>
-                  <i className="uil uil-calender"></i> 2022 - Present
+                  <i className="uil uil-calender"></i> Dec 2021 - Present
                 </QualificationCalendar>
               </div>
 
@@ -133,45 +137,30 @@ const Qualification = () => {
               </div>
 
               <div>
-                <QualificationTitle>Web Design</QualificationTitle>
-                <QualificationSubTitle>Spain - Institute</QualificationSubTitle>
+                <QualificationTitle>NAB Capstone</QualificationTitle>
+                <QualificationSubTitle>
+                  National Australia Bank
+                </QualificationSubTitle>
                 <QualificationCalendar>
-                  <i className="uil uil-calender"></i> 20219 - 2020
+                  <i className="uil uil-calender"></i> Dec 2021 - Mar 2022
                 </QualificationCalendar>
               </div>
             </QualificationData>
 
             <QualificationData>
               <div>
-                <QualificationTitle>Art Director</QualificationTitle>
+                <QualificationTitle>Graduation Thesis</QualificationTitle>
                 <QualificationSubTitle>
                   Viet Nam - Instutute
                 </QualificationSubTitle>
                 <QualificationCalendar>
-                  <i className="uil uil-calender"></i> 2022 - Present
+                  <i className="uil uil-calender"></i> Mar - Oct 2022
                 </QualificationCalendar>
               </div>
 
               <div>
                 <QualificationRounder></QualificationRounder>
                 <QualificationLine></QualificationLine>
-              </div>
-            </QualificationData>
-
-            <QualificationData>
-              <div></div>
-
-              <div>
-                <QualificationRounder></QualificationRounder>
-                <QualificationLine></QualificationLine>
-              </div>
-
-              <div>
-                <QualificationTitle>Web Design</QualificationTitle>
-                <QualificationSubTitle>Spain - Institute</QualificationSubTitle>
-                <QualificationCalendar>
-                  <i className="uil uil-calender"></i> 20219 - 2020
-                </QualificationCalendar>
               </div>
             </QualificationData>
           </QualificationContentExp>
@@ -205,6 +194,9 @@ const ButtonLink = styled.div`
   :hover {
     color: #000000;
   }
+  @media screen and (max-width: 576px) {
+    margin: 0 0.75rem;
+  }
 `;
 
 const QualificationSections = styled.div`
@@ -234,7 +226,7 @@ const QualificationTitle = styled.h3`
 const QualificationSubTitle = styled.span`
   display: inline-block;
   font-size: 0.875rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0.75rem;
 `;
 
 const QualificationCalendar = styled.div`
