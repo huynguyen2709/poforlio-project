@@ -1,5 +1,10 @@
 import React from "react";
-import { Container, Grid } from "../../common/styles";
+import {
+  Grid,
+  CommonSection,
+  CommonTitle,
+  CommonSubTitle,
+} from "../../common/styles";
 import styled from "styled-components";
 import Image from "../../assets/profile.jpg";
 import CV from "../../assets/cv.pdf";
@@ -7,9 +12,9 @@ import Info from "./Info";
 
 const About = () => {
   return (
-    <AboutSection id="about">
-      <AboutTitle>About Me</AboutTitle>
-      <AboutSubTitle>My Introduction</AboutSubTitle>
+    <CommonSection id="about">
+      <CommonTitle>About Me</CommonTitle>
+      <CommonSubTitle>My Introduction</CommonSubTitle>
       <AboutContainer>
         <AboutImage src={Image} alt="about picture" />
 
@@ -53,44 +58,11 @@ const About = () => {
           </ButtonLink>
         </AboutData>
       </AboutContainer>
-    </AboutSection>
+    </CommonSection>
   );
 };
 
 export default About;
-
-const AboutSection = styled(Container)`
-  margin-top: 10rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* BREAKPOINTS */
-  /* For large devices */
-  @media screen and (max-width: 992px) {
-  }
-
-  /* For medium devices */
-  @media screen and (max-width: 768px) {
-    margin-top: initial;
-    padding: 0 0 4rem;
-  }
-
-  @media screen and (max-width: 576px) {
-  }
-
-  /* For small devices */
-  @media screen and (max-width: 350px) {
-  }
-`;
-
-const AboutTitle = styled.h2`
-  font-size: 2rem;
-`;
-
-const AboutSubTitle = styled.span`
-  font-size: 0.875rem;
-  margin-bottom: 3.5rem;
-`;
 
 const AboutContainer = styled(Grid)`
   grid-template-columns: repeat(2, 1fr);

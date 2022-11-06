@@ -20,6 +20,40 @@ export const Container = styled.div`
   }
 `;
 
+// SECTION
+export const CommonSection = styled(Container)`
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* BREAKPOINTS */
+  /* For large devices */
+  @media screen and (max-width: 992px) {
+  }
+
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+    margin-top: initial;
+    padding: 0 0 4rem;
+  }
+
+  @media screen and (max-width: 576px) {
+  }
+
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+  }
+`;
+
+export const CommonTitle = styled.h2`
+  font-size: 2rem;
+`;
+
+export const CommonSubTitle = styled.span`
+  font-size: 0.875rem;
+  margin-bottom: 3.5rem;
+`;
+
 export const Grid = styled.div`
   display: grid;
   gap: 1.5rem;

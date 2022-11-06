@@ -57,7 +57,7 @@ const AboutInfo = styled(Grid)`
 
 const AboutBox = styled.div`
   background-color: #fff;
-  border: 1px solid #757575;
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 0.75rem;
   text-align: center;
   padding: 1rem 1.25rem;
