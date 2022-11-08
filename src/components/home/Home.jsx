@@ -7,7 +7,7 @@ import ScrollDown from "./ScrollDown";
 
 const Home = () => {
   return (
-    <HomeSection>
+    <HomeSection id="home">
       <HomeContainer>
         <HomeContent>
           <Social />
@@ -26,7 +26,9 @@ export default Home;
 const HomeSection = styled(Container)`
   /* BREAKPOINTS */
   /* For large devices */
+  padding-top: 10rem;
   @media screen and (max-width: 992px) {
+    padding-top: 5rem;
   }
 
   /* For medium devices */
@@ -65,7 +67,6 @@ const HomeContainer = styled.div`
 
 const HomeContent = styled(Grid)`
   grid-template-columns: 116px repeat(2, 1fr);
-  padding-top: 8.5rem;
   column-gap: 2rem;
   align-items: center;
 
@@ -91,7 +92,7 @@ const HomeContent = styled(Grid)`
 `;
 
 const HomeImage = styled.div`
-  background-image: url("https://picsum.photos/300/300");
+  background-image: url("https://res.cloudinary.com/huynguyen145/image/upload/v1659771295/profile_pic_vfeqey.jpg");
   justify-self: center;
   order: 1;
   box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);

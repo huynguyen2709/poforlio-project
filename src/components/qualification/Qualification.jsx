@@ -19,7 +19,7 @@ const Qualification = () => {
     setIsActive(false);
   };
   return (
-    <CommonSection>
+    <CommonSection id="portfolio">
       <CommonTitle>Qualification</CommonTitle>
       <CommonSubTitle>My personel journey</CommonSubTitle>
 
@@ -205,19 +205,47 @@ const QualificationSections = styled.div`
 `;
 
 const QualificationContentEdu = styled.div`
+  animation: ${({ isActive }) => (isActive ? "fadein 2s ease-in-out" : "none")};
   display: ${({ isActive }) => (isActive ? "block" : "none")};
 `;
 
 const QualificationContentExp = styled.div`
+  animation: ${({ isActive }) =>
+    !isActive ? "fadein 2s ease-in-out" : "none"};
+  @keyframes fadein {
+    0% {
+      display: none;
+      opacity: 0;
+    }
+
+    1% {
+      display: block;
+      opacity: 0;
+    }
+
+    30% {
+      display: block;
+      opacity: 1;
+    }
+  }
   display: ${({ isActive }) => (!isActive ? "block" : "none")};
+
+  transition: all 0.2s ease-in-out;
 `;
 
 const QualificationData = styled.div`
   display: grid;
   grid-template-columns: 1fr max-content 1fr;
   column-gap: 3.5rem;
-`;
 
+  @media screen and (max-width: 443px) {
+    column-gap: 2rem;
+  }
+
+  @media screen and (max-width: 396px) {
+    column-gap: 0.5rem;
+  }
+`;
 
 const QualificationSubTitle = styled.span`
   display: inline-block;

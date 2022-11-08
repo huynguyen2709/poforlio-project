@@ -4,8 +4,11 @@ import styled from "styled-components";
 const Social = () => {
   return (
     <HomeSocial>
-      <HomeIcon target="_blank" href="https://www.instagram.com/huynguyen145/">
-        <i className="uil uil-instagram"></i>
+      <HomeIcon
+        target="_blank"
+        href="https://www.facebook.com/profile.php?id=100005983564188"
+      >
+        <i className="uil uil-facebook"></i>
       </HomeIcon>
       <HomeIcon
         target="_blank"

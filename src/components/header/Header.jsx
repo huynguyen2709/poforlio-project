@@ -45,20 +45,11 @@ const Header = () => {
             </NavItem>
 
             <NavItem>
-              <NavLink href="#services">
-                <NavIcon>
-                  <i className="uil uil-briefcase-alt"></i>
-                </NavIcon>{" "}
-                Services
-              </NavLink>
-            </NavItem>
-
-            <NavItem>
-              <NavLink href="#porforlio">
+              <NavLink href="#portfolio">
                 <NavIcon>
                   <i className="uil uil-scenery"></i>
                 </NavIcon>{" "}
-                Porforlio
+                Qualification
               </NavLink>
             </NavItem>
 

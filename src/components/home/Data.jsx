@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { ageCalculator } from "../../utils/ageCalculator";
 
 const Data = () => {
   return (
@@ -58,10 +59,9 @@ const Data = () => {
       </HomeTitle>
       <HomeSubTitle>Front-end Developer</HomeSubTitle>
       <HomeDescription>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum ut
-        accusamus sequi dolorem quis qui porro reiciendis quasi, repellendus
-        consectetur consequatur beatae rerum eveniet, exercitationem vel
-        nesciunt? Sint, saepe qui?
+        I am Huy Nguyen, {ageCalculator()} years old based in Ho Chi Minh city,
+        Viet Nam. I am a Full-stack software developer. Coding and studying
+        things that related to Tech is something that I really enjoy
       </HomeDescription>
       <ButtonLink>
         Say Hello

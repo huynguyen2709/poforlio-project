@@ -35,7 +35,7 @@ const Contact = () => {
 
           <ContactInfo>
             <ContactCard>
-              <i class="bx bx-envelope"></i>
+              <i className="bx bx-envelope"></i>
 
               <ContactCardTitle>Email</ContactCardTitle>
               <ContactCardData>huyhamho145@gmail.com</ContactCardData>
@@ -46,24 +46,24 @@ const Contact = () => {
             </ContactCard>
 
             <ContactCard>
-              <i class="bx bxl-whatsapp"></i>
+              <i className="bx bxl-whatsapp"></i>
 
-              <ContactCardTitle>Zalo</ContactCardTitle>
-              <ContactCardData>0336319905</ContactCardData>
+              <ContactCardTitle>Phone Number</ContactCardTitle>
+              <ContactCardData>+84336319905</ContactCardData>
 
-              <ContactButton>
-                Write me <i className="bx bx-right-arrow-alt"></i>
+              <ContactButton href="tel:0336319905">
+                Contact me <i className="bx bx-right-arrow-alt"></i>
               </ContactButton>
             </ContactCard>
 
             <ContactCard>
-              <i class="bx bxl-messenger"></i>
+              <i className="bx bxl-messenger"></i>
 
-              <ContactCardTitle>Messenger</ContactCardTitle>
-              <ContactCardData>Huy Nguyen</ContactCardData>
+              <ContactCardTitle>Zalo Message</ContactCardTitle>
+              <ContactCardData>0336319905</ContactCardData>
 
-              <ContactButton>
-                Write me <i className="bx bx-right-arrow-alt"></i>
+              <ContactButton href="https://zalo.me/pc">
+                Contact me <i className="bx bx-right-arrow-alt"></i>
               </ContactButton>
             </ContactCard>
           </ContactInfo>

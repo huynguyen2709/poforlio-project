@@ -6,7 +6,7 @@ import {
   CommonSubTitle,
 } from "../../common/styles";
 import styled from "styled-components";
-import Image from "../../assets/profile.jpg";
+import AboutPic from "../../assets/about.JPG";
 import CV from "../../assets/cv.pdf";
 import Info from "./Info";
 
@@ -16,16 +16,15 @@ const About = () => {
       <CommonTitle>About Me</CommonTitle>
       <CommonSubTitle>My Introduction</CommonSubTitle>
       <AboutContainer>
-        <AboutImage src={Image} alt="about picture" />
+        <AboutImage src={AboutPic} alt="about picture" />
 
         <AboutData>
           <Info />
 
           <AboutDescription>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi neque
-            quisquam porro possimus molestiae consequatur? Veniam, tenetur totam
-            laboriosam iste reprehenderit fugiat perspiciatis numquam nulla odio
-            odit ipsam iure illum!
+            Frontend Developer, I love creating user interface for the website.
+            I have 1 year of experience working as a full-stack developer at
+            National Australia Bank. Check out my CV below for more.
           </AboutDescription>
 
           <ButtonLink download="" href={CV}>
@@ -96,11 +95,12 @@ const AboutImage = styled.img`
   /* BREAKPOINTS */
   /* For large devices */
   @media screen and (max-width: 992px) {
-    width: 220px;
+    width: 400px;
   }
 
   /* For medium devices */
   @media screen and (max-width: 768px) {
+    width: 300px;
   }
 
   @media screen and (max-width: 576px) {
@@ -108,6 +108,7 @@ const AboutImage = styled.img`
 
   /* For small devices */
   @media screen and (max-width: 350px) {
+    width: 250px;
   }
 `;
 

@@ -6,19 +6,19 @@ const Info = () => {
   return (
     <AboutInfo>
       <AboutBox>
-        <i class="bx bx-award"></i>
+        <i className="bx bx-award"></i>
         <AboutTitle>Experience</AboutTitle>
         <AboutSubTitle>1 Year Working</AboutSubTitle>
       </AboutBox>
 
       <AboutBox>
-        <i class="bx bxs-graduation"></i>
+        <i className="bx bxs-graduation"></i>
         <AboutTitle>Education</AboutTitle>
         <AboutSubTitle>RMIT University</AboutSubTitle>
       </AboutBox>
 
       <AboutBox>
-        <i class="bx bx-location-plus"></i>
+        <i className="bx bx-location-plus"></i>
         <AboutTitle>Location</AboutTitle>
         <AboutSubTitle>Viet Nam</AboutSubTitle>
       </AboutBox>

@@ -17,7 +17,7 @@ const FrontEnd = () => {
       <SkillBox>
         <SkillGroup>
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>HTML</SkillName>
               <SkillLevel>Advanced</SkillLevel>
@@ -25,7 +25,7 @@ const FrontEnd = () => {
           </SkillData>
 
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>CSS</SkillName>
               <SkillLevel>Advanced</SkillLevel>
@@ -33,7 +33,7 @@ const FrontEnd = () => {
           </SkillData>
 
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>JavaScript</SkillName>
               <SkillLevel>Advanced</SkillLevel>
@@ -43,7 +43,7 @@ const FrontEnd = () => {
 
         <SkillGroup>
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>Git</SkillName>
               <SkillLevel>Advanced</SkillLevel>
@@ -51,7 +51,7 @@ const FrontEnd = () => {
           </SkillData>
 
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>React</SkillName>
               <SkillLevel>Advanced</SkillLevel>
@@ -59,7 +59,7 @@ const FrontEnd = () => {
           </SkillData>
 
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>GraphQL</SkillName>
               <SkillLevel>Intermediate</SkillLevel>

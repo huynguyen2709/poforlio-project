@@ -17,7 +17,7 @@ const BackEnd = () => {
       <SkillBox>
         <SkillGroup>
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>Spring</SkillName>
               <SkillLevel>Basic</SkillLevel>
@@ -25,7 +25,7 @@ const BackEnd = () => {
           </SkillData>
 
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>Node Js</SkillName>
               <SkillLevel>Intermediate</SkillLevel>
@@ -33,7 +33,7 @@ const BackEnd = () => {
           </SkillData>
 
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>MySQL</SkillName>
               <SkillLevel>Basic</SkillLevel>
@@ -43,7 +43,7 @@ const BackEnd = () => {
 
         <SkillGroup>
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>Apollo</SkillName>
               <SkillLevel>Intermediate</SkillLevel>
@@ -51,7 +51,7 @@ const BackEnd = () => {
           </SkillData>
 
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>Jenkins</SkillName>
               <SkillLevel>Beginner</SkillLevel>
@@ -59,7 +59,7 @@ const BackEnd = () => {
           </SkillData>
 
           <SkillData>
-            <i class="bx bx-badge-check"></i>
+            <i className="bx bx-badge-check"></i>
             <div>
               <SkillName>Docker</SkillName>
               <SkillLevel>Beginner</SkillLevel>
