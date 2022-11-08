@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Container } from "../../common/styles";
 
 const Footer = () => {
   return (
@@ -18,7 +17,7 @@ const Footer = () => {
           </li>
 
           <li>
-            <FooterLink href="#portfolio">Portfolio</FooterLink>
+            <FooterLink href="#portfolio">Qualification</FooterLink>
           </li>
         </FooterList>
 
